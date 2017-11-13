@@ -53,6 +53,39 @@
 		008F34B21FB9787200C05BD4 /* Sample_OCUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Sample_OCUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		008F34B61FB9787200C05BD4 /* Sample_OCUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Sample_OCUITests.m; sourceTree = "<group>"; };
 		008F34B81FB9787200C05BD4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		008F34C51FB97E0900C05BD4 /* AnimationManage.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AnimationManage.h; sourceTree = "<group>"; };
+		008F34C61FB97E0900C05BD4 /* AnimationManage.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AnimationManage.m; sourceTree = "<group>"; };
+		008F34C71FB97E0900C05BD4 /* AppManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppManager.h; sourceTree = "<group>"; };
+		008F34C81FB97E0900C05BD4 /* AppManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppManager.m; sourceTree = "<group>"; };
+		008F34C91FB97E0900C05BD4 /* CoreDataManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CoreDataManager.h; sourceTree = "<group>"; };
+		008F34CA1FB97E0900C05BD4 /* CoreDataManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CoreDataManager.m; sourceTree = "<group>"; };
+		008F34CB1FB97E0900C05BD4 /* DeviceManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DeviceManager.h; sourceTree = "<group>"; };
+		008F34CC1FB97E0900C05BD4 /* DeviceManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DeviceManager.m; sourceTree = "<group>"; };
+		008F34CD1FB97E0900C05BD4 /* FileManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FileManager.h; sourceTree = "<group>"; };
+		008F34CE1FB97E0900C05BD4 /* FileManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FileManager.m; sourceTree = "<group>"; };
+		008F34CF1FB97E0900C05BD4 /* GCDManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GCDManager.h; sourceTree = "<group>"; };
+		008F34D01FB97E0900C05BD4 /* GCDManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GCDManager.m; sourceTree = "<group>"; };
+		008F34D11FB97E0900C05BD4 /* HardwareManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HardwareManager.h; sourceTree = "<group>"; };
+		008F34D21FB97E0900C05BD4 /* HardwareManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HardwareManager.m; sourceTree = "<group>"; };
+		008F34D31FB97E0900C05BD4 /* HTTPRequestManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HTTPRequestManager.h; sourceTree = "<group>"; };
+		008F34D41FB97E0900C05BD4 /* HTTPRequestManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HTTPRequestManager.m; sourceTree = "<group>"; };
+		008F34D61FB97E0900C05BD4 /* MacroDefines.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MacroDefines.h; sourceTree = "<group>"; };
+		008F34D71FB97E0900C05BD4 /* MacroDefines_Color.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MacroDefines_Color.h; sourceTree = "<group>"; };
+		008F34D81FB97E0900C05BD4 /* MacroDefines_Identifier.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MacroDefines_Identifier.h; sourceTree = "<group>"; };
+		008F34D91FB97E0900C05BD4 /* MacroDefines_Notification.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MacroDefines_Notification.h; sourceTree = "<group>"; };
+		008F34DA1FB97E0900C05BD4 /* MacroDefines_Service.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MacroDefines_Service.h; sourceTree = "<group>"; };
+		008F34DB1FB97E0900C05BD4 /* MacroDefines_UserDefaults.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MacroDefines_UserDefaults.h; sourceTree = "<group>"; };
+		008F34DC1FB97E0900C05BD4 /* Manager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Manager.h; sourceTree = "<group>"; };
+		008F34DD1FB97E0900C05BD4 /* Manager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Manager.m; sourceTree = "<group>"; };
+		008F34DE1FB97E0900C05BD4 /* ModelHandler.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ModelHandler.h; sourceTree = "<group>"; };
+		008F34DF1FB97E0900C05BD4 /* ModelHandler.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ModelHandler.m; sourceTree = "<group>"; };
+		008F34E01FB97E0900C05BD4 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		008F34E11FB97E0900C05BD4 /* UIColor+Category.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIColor+Category.h"; sourceTree = "<group>"; };
+		008F34E21FB97E0900C05BD4 /* UIColor+Category.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Category.m"; sourceTree = "<group>"; };
+		008F34E31FB97E0900C05BD4 /* UIManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UIManager.h; sourceTree = "<group>"; };
+		008F34E41FB97E0900C05BD4 /* UIManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UIManager.m; sourceTree = "<group>"; };
+		008F34F61FB97E0900C05BD4 /* UIButtonSample.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UIButtonSample.h; sourceTree = "<group>"; };
+		008F34F71FB97E0900C05BD4 /* UIButtonSample.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UIButtonSample.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +136,11 @@
 		008F348E1FB9787100C05BD4 /* Sample_OC */ = {
 			isa = PBXGroup;
 			children = (
+				008F34E51FB97E0900C05BD4 /* Frameworks */,
+				008F34E71FB97E0900C05BD4 /* Images */,
+				008F34EA1FB97E0900C05BD4 /* Modules */,
+				008F34C41FB97E0900C05BD4 /* Tools */,
+				008F34E61FB97E0900C05BD4 /* Vendor */,
 				008F348F1FB9787100C05BD4 /* AppDelegate.h */,
 				008F34901FB9787100C05BD4 /* AppDelegate.m */,
 				008F34921FB9787100C05BD4 /* ViewController.h */,
@@ -133,6 +171,186 @@
 				008F34B81FB9787200C05BD4 /* Info.plist */,
 			);
 			path = Sample_OCUITests;
+			sourceTree = "<group>";
+		};
+		008F34C41FB97E0900C05BD4 /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+				008F34C51FB97E0900C05BD4 /* AnimationManage.h */,
+				008F34C61FB97E0900C05BD4 /* AnimationManage.m */,
+				008F34C71FB97E0900C05BD4 /* AppManager.h */,
+				008F34C81FB97E0900C05BD4 /* AppManager.m */,
+				008F34C91FB97E0900C05BD4 /* CoreDataManager.h */,
+				008F34CA1FB97E0900C05BD4 /* CoreDataManager.m */,
+				008F34CB1FB97E0900C05BD4 /* DeviceManager.h */,
+				008F34CC1FB97E0900C05BD4 /* DeviceManager.m */,
+				008F34CD1FB97E0900C05BD4 /* FileManager.h */,
+				008F34CE1FB97E0900C05BD4 /* FileManager.m */,
+				008F34CF1FB97E0900C05BD4 /* GCDManager.h */,
+				008F34D01FB97E0900C05BD4 /* GCDManager.m */,
+				008F34D11FB97E0900C05BD4 /* HardwareManager.h */,
+				008F34D21FB97E0900C05BD4 /* HardwareManager.m */,
+				008F34D31FB97E0900C05BD4 /* HTTPRequestManager.h */,
+				008F34D41FB97E0900C05BD4 /* HTTPRequestManager.m */,
+				008F34D51FB97E0900C05BD4 /* MacroDefines */,
+				008F34DC1FB97E0900C05BD4 /* Manager.h */,
+				008F34DD1FB97E0900C05BD4 /* Manager.m */,
+				008F34DE1FB97E0900C05BD4 /* ModelHandler.h */,
+				008F34DF1FB97E0900C05BD4 /* ModelHandler.m */,
+				008F34E01FB97E0900C05BD4 /* PrefixHeader.pch */,
+				008F34E11FB97E0900C05BD4 /* UIColor+Category.h */,
+				008F34E21FB97E0900C05BD4 /* UIColor+Category.m */,
+				008F34E31FB97E0900C05BD4 /* UIManager.h */,
+				008F34E41FB97E0900C05BD4 /* UIManager.m */,
+			);
+			path = Tools;
+			sourceTree = "<group>";
+		};
+		008F34D51FB97E0900C05BD4 /* MacroDefines */ = {
+			isa = PBXGroup;
+			children = (
+				008F34D61FB97E0900C05BD4 /* MacroDefines.h */,
+				008F34D71FB97E0900C05BD4 /* MacroDefines_Color.h */,
+				008F34D81FB97E0900C05BD4 /* MacroDefines_Identifier.h */,
+				008F34D91FB97E0900C05BD4 /* MacroDefines_Notification.h */,
+				008F34DA1FB97E0900C05BD4 /* MacroDefines_Service.h */,
+				008F34DB1FB97E0900C05BD4 /* MacroDefines_UserDefaults.h */,
+			);
+			path = MacroDefines;
+			sourceTree = "<group>";
+		};
+		008F34E51FB97E0900C05BD4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Frameworks;
+			sourceTree = "<group>";
+		};
+		008F34E61FB97E0900C05BD4 /* Vendor */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Vendor;
+			sourceTree = "<group>";
+		};
+		008F34E71FB97E0900C05BD4 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				008F34E81FB97E0900C05BD4 /* Icons */,
+				008F34E91FB97E0900C05BD4 /* LaunchImages */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+		008F34E81FB97E0900C05BD4 /* Icons */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Icons;
+			sourceTree = "<group>";
+		};
+		008F34E91FB97E0900C05BD4 /* LaunchImages */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = LaunchImages;
+			sourceTree = "<group>";
+		};
+		008F34EA1FB97E0900C05BD4 /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				008F34EB1FB97E0900C05BD4 /* LogIn */,
+				008F34F01FB97E0900C05BD4 /* Register */,
+				008F34F51FB97E0900C05BD4 /* UIButton */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		008F34EB1FB97E0900C05BD4 /* LogIn */ = {
+			isa = PBXGroup;
+			children = (
+				008F34EC1FB97E0900C05BD4 /* Manager */,
+				008F34ED1FB97E0900C05BD4 /* Model */,
+				008F34EE1FB97E0900C05BD4 /* View */,
+				008F34EF1FB97E0900C05BD4 /* ViewController */,
+			);
+			path = LogIn;
+			sourceTree = "<group>";
+		};
+		008F34EC1FB97E0900C05BD4 /* Manager */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Manager;
+			sourceTree = "<group>";
+		};
+		008F34ED1FB97E0900C05BD4 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		008F34EE1FB97E0900C05BD4 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		008F34EF1FB97E0900C05BD4 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		008F34F01FB97E0900C05BD4 /* Register */ = {
+			isa = PBXGroup;
+			children = (
+				008F34F11FB97E0900C05BD4 /* Manager */,
+				008F34F21FB97E0900C05BD4 /* Model */,
+				008F34F31FB97E0900C05BD4 /* View */,
+				008F34F41FB97E0900C05BD4 /* ViewController */,
+			);
+			path = Register;
+			sourceTree = "<group>";
+		};
+		008F34F11FB97E0900C05BD4 /* Manager */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Manager;
+			sourceTree = "<group>";
+		};
+		008F34F21FB97E0900C05BD4 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		008F34F31FB97E0900C05BD4 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		008F34F41FB97E0900C05BD4 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		008F34F51FB97E0900C05BD4 /* UIButton */ = {
+			isa = PBXGroup;
+			children = (
+				008F34F61FB97E0900C05BD4 /* UIButtonSample.h */,
+				008F34F71FB97E0900C05BD4 /* UIButtonSample.m */,
+			);
+			path = UIButton;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */

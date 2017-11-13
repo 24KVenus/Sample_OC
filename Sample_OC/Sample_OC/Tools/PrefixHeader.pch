@@ -1,0 +1,27 @@
+//
+//  PrefixHeader.pch
+//  Sample
+//
+//  Created by Yijie Guo on 1/7/16.
+//  Copyright © 2016 self. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#import <Foundation/Foundation.h>
+#import <UIKit/UIKit.h>
+
+
+#import "MacroDefines_Color.h"
+#import "MacroDefines_Identifier.h"
+#import "MacroDefines_Notification.h"
+#import "MacroDefines_Service.h"
+#import "MacroDefines_UserDefaults.h"
+#import "MacroDefines.h"
+
+
+#endif /* PrefixHeader_pch */
